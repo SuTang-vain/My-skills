@@ -56,6 +56,23 @@
 - 优先查找一手或接近一手来源
 - 输出 claim 到 source 的映射关系
 
+---
+
+### thinking-knowledge-cards
+
+将主题、文章、论文、笔记或源文件整理成 `thinking/` 风格的 Obsidian 知识卡片 / 知识结点，保留双链、关系符号、概念关系图，并在需要时搜索验证关键事实与来源。
+
+**使用方法**：
+```text
+/thinking-knowledge-cards 把这个主题整理成 thinking 风格的知识卡片，并验证关键事实来源
+```
+
+**特性**：
+- 输出 `元信息 / 定义 / 核心观点 / 概念关系图 / 关联概念 / 延伸 / 参考 / 最后更新`
+- 默认使用 `[[双链]]`、`→ / ⇒ / ↔ / ⋯` 关系符号
+- 面向 Obsidian 知识网络，而不是课堂讲义式笔记
+- 对市场、时间线、公司事实、论文与报告等信息保留搜索验证步骤
+
 ## 如何使用
 
 1. 在支持 Skills 的工具或管理器中添加此仓库
@@ -73,6 +90,13 @@ My-skills/
 │   │   └── openai.yaml
 │   └── references/
 │       └── source-priority.md
+├── thinking-knowledge-cards/
+│   ├── SKILL.md
+│   ├── agents/
+│   │   └── openai.yaml
+│   └── references/
+│       ├── source-validation.md
+│       └── thinking-style.md
 ├── tech-blog-writer/
 │   ├── SKILL.md
 │   ├── agents/

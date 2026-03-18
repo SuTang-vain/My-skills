@@ -1,0 +1,4 @@
+interface:
+  display_name: "Thinking Knowledge Cards"
+  short_description: "Turn material into linked Obsidian knowledge cards"
+  default_prompt: "Use $thinking-knowledge-cards to turn this topic or source material into a linked knowledge card in my thinking vault style and verify key factual claims with source links when needed."
