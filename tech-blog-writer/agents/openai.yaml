@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tech Blog Writer"
+  short_description: "Draft structured technical blogs and tutorials"
+  default_prompt: "Use $tech-blog-writer to draft or revise a structured technical blog post with clear explanations and code examples."

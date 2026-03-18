@@ -1,0 +1,4 @@
+interface:
+  display_name: "Article Source Analyst"
+  short_description: "Summarize articles, map structure, and trace sources"
+  default_prompt: "Use $analyze-article-sources to summarize this article or paper, map its structure, and attach source links for key claims."

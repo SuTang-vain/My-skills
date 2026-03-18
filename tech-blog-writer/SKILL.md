@@ -1,60 +1,73 @@
 ---
 name: tech-blog-writer
-description: 生成结构化的技术博客文章，包含代码示例、最佳实践和清晰的解释
-disable-model-invocation: false
-user-invocable: true
+description: Write structured technical blog posts and developer-facing articles. Use when Codex needs to draft or revise a technical blog post, tutorial, walkthrough, engineering article, or documentation-style essay with clear sectioning, code examples, best practices, target audience framing, and a concise conclusion. Also use for requests involving 技术博客、教程文章、技术写作、代码示例文章、最佳实践文章、文章润色.
 ---
 
-# 技术博客写作助手
+# Tech Blog Writer
 
-为主题生成高质量的技术博客文章：$ARGUMENTS
+## Overview
 
-## 文章结构要求
+Turn a topic, outline, rough notes, or existing draft into a clear technical article. Keep the writing accurate, well-structured, and readable for the intended audience instead of producing generic marketing copy.
 
-1. **标题和元信息**
-   - 吸引人的标题
-   - 简短的摘要（2-3 句话）
-   - 关键词标签
-   - 预计阅读时间
+## Workflow
 
-2. **引言部分**
-   - 问题背景和动机
-   - 文章将解决什么问题
-   - 目标读者
+### 1. Frame the article
 
-3. **主体内容**
-   - 清晰的章节划分
-   - 循序渐进的讲解
-   - 实际代码示例（带注释）
-   - 关键概念的解释
-   - 最佳实践和注意事项
+- Identify the topic, target reader, and the concrete problem the article solves.
+- Ask only when the missing constraint is material; otherwise infer a reasonable default audience and state that assumption.
+- Decide whether the artifact is a tutorial, conceptual explainer, comparison, incident write-up, or best-practices post.
 
-4. **代码示例规范**
-   - 使用语法高亮标记
-   - 添加必要的注释
-   - 提供完整可运行的示例
-   - 解释关键代码行
+### 2. Build the article structure
 
-5. **总结部分**
-   - 核心要点回顾
-   - 进一步学习资源
-   - 相关主题推荐
+- Start with a specific title.
+- Add a short abstract or introduction that explains why the topic matters.
+- Organize the body into a clear progression:
+  - context or prerequisites
+  - core concepts
+  - worked examples
+  - pitfalls or best practices
+  - conclusion and next steps
+- Prefer headings that describe the reader outcome, not vague labels.
 
-## 写作风格
+### 3. Write the technical core
 
-- 使用清晰、简洁的语言
-- 避免过度技术化的术语（或提供解释）
-- 使用类比和实际场景帮助理解
-- 保持友好、鼓励的语气
-- 中英文技术术语混用时保持一致性
+- Explain concepts with concrete examples.
+- Include code only when it materially improves understanding.
+- Keep snippets correct, readable, and scoped to the point being made.
+- Comment complex lines briefly instead of over-explaining trivial code.
+- Distinguish clearly between example code, production guidance, and caveats.
 
-## 输出格式
+### 4. Improve readability
 
-使用 Markdown 格式，包含：
-- 标题层级（# ## ###）
-- 代码块（```language）
-- 列表和表格
-- 引用块（用于重要提示）
-- 链接和图片占位符
+- Use concise language and avoid unnecessary jargon.
+- Define specialist terms the first time they appear.
+- Use lists, tables, callouts, and short paragraphs when they improve scanability.
+- Avoid filler introductions and generic conclusions.
 
-参考模板：[templates/blog-template.md](templates/blog-template.md)
+### 5. Close the article
+
+- Summarize the main takeaways.
+- Suggest one or two next steps, related topics, or follow-up readings when useful.
+- If the article makes factual claims that need verification, attach source links or note that verification is still needed.
+
+## Output Shape
+
+Use this default shape unless the user requests another format:
+
+- Title
+- Abstract
+- Audience or prerequisites
+- Main sections with clear headings
+- Code examples with explanation where needed
+- Best practices or common mistakes
+- Conclusion
+- Optional references or further reading
+
+## Working Rules
+
+- Prefer substance over hype.
+- Keep code examples runnable or obviously adaptable.
+- Match depth to the stated audience.
+- If revising a draft, preserve the author's key intent while tightening structure and clarity.
+- Read [templates/blog-template.md](templates/blog-template.md) when you need a ready-made article skeleton.
+- Read [examples/javascript-closure-example.md](examples/javascript-closure-example.md) when you want an example of the expected level of explanation.

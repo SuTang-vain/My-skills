@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning Notes"
+  short_description: "Turn topics and materials into structured notes"
+  default_prompt: "Use $learning-notes to turn this topic or source material into structured study notes with concept explanations and links between ideas."
