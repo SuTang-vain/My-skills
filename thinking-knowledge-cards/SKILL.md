@@ -73,4 +73,5 @@ Convert source material into a durable knowledge node rather than a generic stud
 - Use tags, difficulty, and update date in the same style as nearby cards.
 - Prefer a few high-signal references over a long bibliography.
 - When source validation was part of the task, ensure the `参考` section contains the links you actually relied on.
+- When writing in Chinese, avoid overusing the “不是……而是……” contrast pattern. Prefer direct statements and straightforward judgment sentences.
 - Read [references/thinking-style.md](references/thinking-style.md) when you need the exact card skeleton and style conventions.

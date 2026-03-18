@@ -69,5 +69,6 @@ Use this default shape unless the user requests another format:
 - Keep code examples runnable or obviously adaptable.
 - Match depth to the stated audience.
 - If revising a draft, preserve the author's key intent while tightening structure and clarity.
+- When writing in Chinese, avoid overusing the “不是……而是……” contrast pattern. Prefer direct statements and straightforward judgment sentences.
 - Read [templates/blog-template.md](templates/blog-template.md) when you need a ready-made article skeleton.
 - Read [examples/javascript-closure-example.md](examples/javascript-closure-example.md) when you want an example of the expected level of explanation.

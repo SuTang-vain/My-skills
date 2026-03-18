@@ -55,6 +55,7 @@ graph TD
 - Write like a knowledge-card author, not like a lecturer.
 - Prefer a small number of strong claims over exhaustive exposition.
 - Make each card stand alone while still linking into the larger knowledge network.
+- Avoid overusing the “不是……而是……” contrast pattern in Chinese. Prefer direct statements and straightforward judgment sentences.
 - Use optional sections only when the subject needs them. Good examples:
   - `核心技术栈` for engineering roles or technical systems
   - `背景` for contextual notes

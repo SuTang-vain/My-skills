@@ -62,5 +62,6 @@ Use this default shape unless the user requests another format:
 - Prefer precise definitions over motivational filler.
 - Use examples sparingly but concretely.
 - Preserve uncertainty when a concept is still ambiguous in the source material.
+- When writing in Chinese, avoid overusing the “不是……而是……” contrast pattern. Prefer direct statements and straightforward judgment sentences.
 - Read [templates/note-template.md](templates/note-template.md) when you need a ready-made note structure.
 - Read [examples/react-hooks-example.md](examples/react-hooks-example.md) when you want a model for note depth and explanatory style.

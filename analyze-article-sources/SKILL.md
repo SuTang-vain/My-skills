@@ -93,3 +93,4 @@ Use a compact table when several claims need citation:
 - Prefer paraphrase over long quotation; quote only when wording matters.
 - Preserve uncertainty. If a paper has weak evidence, a blog post cites stale data, or an event link is secondary rather than primary, say that plainly.
 - When the user asks only for summary and structure, keep sourcing focused on the most material claims instead of exhaustively linking every sentence.
+- When writing in Chinese, avoid overusing the “不是……而是……” contrast pattern. Prefer direct statements and straightforward judgment sentences.
